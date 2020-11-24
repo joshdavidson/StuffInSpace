@@ -120,7 +120,7 @@
       });
     });
 	
-	  groups.GPSGroup = new SatGroup('intlDes', [
+    groups.GPSGroup = new SatGroup('intlDes', [
   		'90103A',
       '93068A',
       '96041A',
@@ -159,8 +159,9 @@
     groups.GalileoGroup = new SatGroup('nameRegex', /GALILEO/);
     groups.FunGroup = new SatGroup('nameRegex', /SYLDA/);
     groups.WestfordNeedlesGroup = new SatGroup('nameRegex', /WESTFORD NEEDLES/);
-    groups.SpaceXGroup = new SatGroup('nameRegex', /FALCON [19]/);
-    
+    groups.SpaceXFalconGroup = new SatGroup('nameRegex', /FALCON [19]/);
+    groups.SpaceXStarlinkGroup = new SatGroup('nameRegex', /STARLINK/);
+
     console.log('groups init: ' + (performance.now() - start) + ' ms');
   };
 	window.groups = groups;
