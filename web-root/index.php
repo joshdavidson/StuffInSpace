@@ -47,12 +47,14 @@ header('Content-Type: text/html; charset=utf-8');
         <ul id="groups-display" class="dropdown submenu">
           <li data-group="<clear>" class="clear-option">Clear</li>
           <li data-group="GPSGroup">GPS</li>
+          <li data-group="SpaceXStarlinkGroup">SpaceX Starlink</li>
+          <li data-group="SpaceXFalconGroup">SpaceX Falcon</li>
           <li data-group="IridiumGroup">Iridium</li>
+          <li data-group="Iridium33DebrisGroup">Iridium 33 Collision Debris</li>
           <li data-group="GlonassGroup">GLONASS</li>
           <li data-group="GalileoGroup">Galileo</li>
-          <li data-group="Iridium33DebrisGroup">Iridium 33 Collision Debris</li>
+          <li data-group="FunGroup">Sylda</li>
           <li data-group="WestfordNeedlesGroup">Westford Needles</li>
-          <li data-group="SpaceXGroup">SpaceX</li>
         </ul>
       </div>
      <!-- <div id="menu-color-schemes" class="menu-item">
@@ -104,13 +106,13 @@ header('Content-Type: text/html; charset=utf-8');
           <p>The website updates daily with orbit data from <a href="http://www.space-track.org">Space-Track.org</a> 
           and uses the excellent <a href="https://github.com/shashwatak/satellite-js">satellite.js</a> Javascript library
           to calculate satellite positions.</p>
-          
+        <!--
           <span class="box-header">About the author</span>
-        <!--  <p>My name is James Yoder; I'm an alumnus of <a href="http://www.usfirst.org/roboticsprograms/frc"><i>FIRST</i> Robotics
+            <p>My name is James Yoder; I'm an alumnus of <a href="http://www.usfirst.org/roboticsprograms/frc"><i>FIRST</i> Robotics
           Competition </a> (FRC) <a href="http://team624.org">Team 624</a> and an incoming Electrical and Computer Engineering freshman at the 
-          University of Texas at Austin. </p> -->
-          <p>Contact: <a href="mailto:info@stuffin.space">info@stuffin.space</a></p>
-          <p>See Stuff in Space on <a href="https://github.com/jeyoder/ThingsInSpace"> GitHub </a></p>
+          University of Texas at Austin. </p>           <p>Contact: <a href="mailto:info@stuffin.space">info@stuffin.space</a></p>
+            <p>See Stuff in Space on <a href="https://github.com/jeyoder/ThingsInSpace"> GitHub </a></p>
+        -->
         </div>
       </div>
     </div>
